@@ -1,0 +1,35 @@
+
+
+.central {
+    background-color: #E6E6E6;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: #D8D8D8;
+    border-radius: 2px;
+ }
+ 
+ .titulo-form{
+    background-color: #D8D8D8;
+    border-width: medium;
+    border-style: solid;
+    border-color: #D8D8D8;
+ }
+ 
+ .espaco-top{
+     padding-top: 1em;
+ }
+ 
+ .espaco-bottom{
+     padding-bottom: 1em;
+ }
+ 
+ .espaco-top-form{
+     padding-top: 2em;
+ }
+  
+ .required:after {
+     content:" *"; 
+     color: orange;
+ }
+ 
+ 
