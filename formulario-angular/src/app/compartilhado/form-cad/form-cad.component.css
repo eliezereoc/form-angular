@@ -1,0 +1,54 @@
+
+.titulo-form{
+    background-color: #D8D8D8;
+    border-width: medium;
+    border-style: solid;
+    border-color: #D8D8D8;
+ }
+
+.espaco-top{
+    padding-top: 1em;
+}
+
+.espaco-bottom{
+    padding-bottom: 1em;
+}
+
+.espaco-top-form{
+    padding-top: 2em;
+}
+ 
+.required:after {
+    content:" *"; 
+    color: orange;
+}
+
+.estilo-botao{
+    background-color: #F0FFFF;       
+    border-color: #D8D8D8;
+}
+
+.estilo-botao:hover{
+    background-color: #8FBC8F;
+}
+
+.fa-plus{
+    color: green;
+}
+
+.fa-minus{
+    color: red;
+}
+
+.fa-search{
+    color: #4B0082;
+}
+
+.fa-refresh{
+    color: #4B0082;
+}
+
+
+/* .fa-minus:hover{
+    color: white; 
+}  */

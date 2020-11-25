@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
-import { FormularioComponent } from './formulario.component';
+import { ListaCadComponent } from './lista-cad.component';
 
-describe('FormularioComponent', () => {
-  let component: FormularioComponent;
-  let fixture: ComponentFixture<FormularioComponent>;
+describe('ListaCadComponent', () => {
+  let component: ListaCadComponent;
+  let fixture: ComponentFixture<ListaCadComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ FormularioComponent ]
+      declarations: [ ListaCadComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FormularioComponent);
+    fixture = TestBed.createComponent(ListaCadComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
